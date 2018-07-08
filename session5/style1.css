@@ -1,0 +1,23 @@
+ul li{
+	list-style-type: disc;
+}
+ul li.php04{
+	list-style-type: circle;
+}
+ul li.php02{
+	list-style-image: url('php02.ico');
+}
+ol li{
+	list-style-type: upper-roman;
+}
+a:link{
+	color: green;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:visited{
+	color: yellow;
+}
+a:hover{
+	color: red;
+}

@@ -1,0 +1,10 @@
+.green{
+	font-family: Arial;
+}
+@font-face{
+	font-family: myNewFont;
+	src:url('AguafinaScript-Regular.ttf');
+}
+.green{
+	font-family: myNewFont;
+}

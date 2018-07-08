@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	font-family: myFont;
+    src: url(fonts/Aldrich-Regular.ttf);
+}
+#main{
+	margin-bottom: 30px;
+}
+#main p{
+	font-family: myFont;
+	font-weight: bold;
+	font-size: 30px;
+}
+/*body{
+	font-family: myFont;
+}*/
+.green{
+	text-align: justify;
+	padding: 30px;
+	text-indent: 20px;
+	text-transform: uppercase;
+	text-transform: lowercase;
+}
+.price{
+	color: red;
+	text-align: center;
+	text-decoration: line-through;
+	text-decoration: overline;
+	text-decoration: underline;
+}
+.price-real{
+	text-align: center;
+}
+.text-demo{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 35px;
+	text-shadow: 4px 4px 9px green;
+}
