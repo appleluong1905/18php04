@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#header{
+	background: #adadad;
+	height: 100px;
+}
+.logo{
+	width: 30%;
+	float: left;
+	line-height: 100px;
+	text-align: center;
+	border-right: 1px solid black;
+}
+.slogan{
+	width: 69.8%;
+	float: left;
+	line-height: 100px;
+	text-align: center;
+}
+#slider{
+	background: #adadad;
+	height: 100px;
+	border-top: 1px solid black;
+	line-height: 100px;
+	text-align: center;
+}
+@media screen and (max-width: 768px) {	
+	.logo{
+		width: 49.7%;
+	}
+	.slogan{
+		width: 49.7%;
+	}
+}
+@media screen and (max-width: 480px) {	
+	#slider{
+		display: none;
+	}
+}
