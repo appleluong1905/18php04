@@ -38,4 +38,7 @@
 	#slider{
 		display: none;
 	}
+	.logo{
+		font-weight: bold;
+	}
 }

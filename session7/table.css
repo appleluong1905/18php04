@@ -1,0 +1,17 @@
+table{
+	width: 600px;
+	border-collapse: collapse;
+}
+table, tr, td, th{
+	border: 1px solid green;
+}
+thead, tfoot{
+	background-color: #81F7BE;
+}
+table tbody tr td:nth-child(1){
+	font-weight: bold;
+	text-align: center;
+}
+/*.bold{
+	font-weight: bold;
+}*/

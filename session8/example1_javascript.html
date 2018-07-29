@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example 1 - Javascript</title>
+	<script type="text/javascript" src="common.js"></script>
+	<style type="text/css">
+		#image{
+			width: 200px;
+			height: 200px;
+		}
+		#demo2{
+			color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<!-- Javascript co the thay doi noi dung HTML -->
+	<p id="demo1">Hello Javascript</p>
+
+	<a href="#" onclick="document.getElementById('demo1').innerHTML = 'Hello PHP04'">Change content</a>
+
+	<!-- Javascript co the thuoc tinh mot doi tuong HTML -->
+	<img src="ronaldo.jpg" alt="" id="image">
+	<a href="#" onclick="document.getElementById('image').src = 'messi.jpg'">Change image</a>
+
+	<!-- Javascript co the style mot doi tuong HTML -->
+	<p id="demo2">Today is Saturday</p>
+	<a href="#" onclick="document.getElementById('demo2').style.color = 'blue'">Change style</a>
+
+	<!-- Javascript co the an/hien mot doi tuong HTML -->
+	<p id="demo3">This is PHP04 class</p>
+	<a href="#" onclick="document.getElementById('demo3').style.display = 'none'">Hide</a>
+	<a href="#" onclick="document.getElementById('demo3').style.display = 'block'">Show</a>
+
+</body>
+</html>

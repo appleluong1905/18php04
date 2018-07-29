@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form - Example 1 - session 7</title>
+	<link rel="shortcut icon"  href="favicon.ico">
+	<meta charset="utf-8">
+	<!-- Dung de ho tro trinh duyet responsive trang web -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="Learn HTML5, CSS3, PHP">
+	<meta name="keywords" content="PHP7, HTML5, CSS3">
+	<!-- External -->
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<h1>Example form</h1>
+	<form name="register" action="#" method="post">
+		<p> Name:
+			<input type="text" name="name" placeholder="Please input your name">
+		</p>
+		<p> Password:
+			<input type="password" name="password">
+		</p>
+		<p> Phone:
+			<input type="text" name="phone" placeholder="(+84) 989999999">
+		</p>
+		<p>Faviourite:
+			<input type="checkbox" name="football" checked>Football
+			<input type="checkbox" name="shopping">Shopping
+			<input type="checkbox" name="film">Film
+		</p>
+		<p>Gender:
+			<input type="radio" name="gender"> Male
+			<input type="radio" name="gender" checked> Female
+			<input type="radio" name="gender"> Other
+		</p>
+		<p>City:
+			<select>
+				<option>Da Nang</option>
+				<option>Ha Noi</option>
+				<option>Ho Chi Minh</option>
+			</select>
+		</p>
+		<p>Avatar:
+			<input type="file" name="avatar">
+		</p>
+		<p>Description:
+			<textarea rows="10" cols="20"></textarea>
+		</p>
+		<p>Birthday:
+			<input type="date" name="birthday">
+		</p>
+		<p>
+			<input type="submit" name="register" value="Register">
+		</p>
+	</form>
+	<!-- <a href="http://vnexpress.net" target="_blank">Doc bao</a> -->
+</body>
+</html>

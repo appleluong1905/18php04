@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<style type="text/css">
+		table{
+			border-collapse: collapse;
+			width: 600px;
+		}
+		table, tr, th, td{
+			border: 1px solid green;
+		}
+		thead{
+			background: #ada;
+		}
+		tbody tr:nth-child(even){
+			background: #CEF6EC;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th rowspan="2">Book</th>
+				<th colspan="4">Sales</th>
+				<!-- <th>Sales</th>
+				<th>Sales</th>
+				<th>Sales</th> -->
+			</tr>
+			<tr>
+				<!-- <th>Book</th> -->
+				<th>North</th>
+				<th>South</th>
+				<th>West</th>
+				<th>Total</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>PHP</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+			</tr>
+			<tr>
+				<td>HTML</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+			</tr>
+			<tr>
+				<td>Java</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+			</tr>
+			<tr>
+				<td>.NET</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+			</tr>
+			<tr>
+				<td>Python</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+			</tr>
+			<tr>
+				<td>Ruby</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+				<td>$14,000</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
