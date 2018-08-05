@@ -40,3 +40,11 @@ function resetCal(){
 	// Gan noi dung ket qua bang ''
 	document.getElementById('result').innerHTML = '';
 }
+// xoa 1 ky tu cuoi cung trong ket qua
+function backCal(){
+	var result = document.getElementById('result').textContent;
+	var resultLeng = result.length;
+	result = result.substring(0, resultLeng-1);
+	// noi noi dung cua gia tri vua chon vao ket qua
+	document.getElementById('result').innerHTML = result;
+}
