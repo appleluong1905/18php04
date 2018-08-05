@@ -20,16 +20,23 @@ x = eval('9/3');
 
 //document.write(x);
 ///
-
+// Ham de noi gia tri cua gia tri so vao ket qua
 function cal(number){
+	// lay noi dung ket qua
 	var result = document.getElementById('result').textContent;
 	result += number;
+	// noi noi dung cua gia tri vua chon vao ket qua
 	document.getElementById('result').innerHTML = result;
 }
+// tinh ket qua cua toan bo phep tinh va gan vao ket qua
 function resultCal(){
+	// lay noi dung cua ket qua
 	var result = document.getElementById('result').textContent;
+	// tinh phep toan cua noi dung ket qua va gan vao ket qua
 	document.getElementById('result').innerHTML = eval(result);
 }
+// reset lai toan bo phep tinh
 function resetCal(){
+	// Gan noi dung ket qua bang ''
 	document.getElementById('result').innerHTML = '';
 }

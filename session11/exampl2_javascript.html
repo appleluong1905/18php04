@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example 2 - Session 11</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<div id="salary">
+		<h1>Payroll example</h1>
+		<form>
+			<p>Salary basic: <input type="text" name="basicSalary" id="basicSalary" onkeyup="myPayroll();" value="0"></p>
+			<p>Coefficients salary: <input type="text" name="coeSalary" id="coeSalary" onkeyup="myPayroll();" value="0"></p>
+			<p>Allowance: <input type="text" name="allowance" id="allowance" onkeyup="myPayroll();" value="0"></p>
+		</form>	
+		<p>Salary: <span id="salaryPayroll"></span></p>
+		<p id = 'salaryWarning'></p>
+	</div>
+	<script type="text/javascript" src="common2.js"></script>
+</body>
+</html>
